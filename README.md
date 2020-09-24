@@ -6,3 +6,4 @@
   b.GradientDataColor warning:rgb data length is large than 4, will ignore the middle data.
   c.ShurikenParticleSystem:the maxParticleCount multiply mesh vertexCount is large than 65535.(Limit MaxParticleCount in Unity)
   d.Particle Effect parent node cannot add Particle Component.
+2.Unity Mesh cannot use ShurikenParticleMaterial.
