@@ -1,5 +1,8 @@
 # LayaBoxDailyRecord
 
+# 20200925
+1.Unity import FBX from 3DMax , Material ball must only one, or CustomShader maybe not work.
+
 # 20200924
 1.Unity Particle Color Params warning(If use gradientColor):
   a.GradientDataColor warning:alpha data length is large than 4, will ignore the middle data.
