@@ -2,6 +2,7 @@
 
 # 20200925
 1.Unity import FBX from 3DMax , Material ball must only one, or CustomShader maybe not work.
+2.TypeScript: "arr.splice(0,1)" delete the first value in Array;"arr.splice(0)" clear the Array.
 
 # 20200924
 1.Unity Particle Color Params warning(If use gradientColor):
