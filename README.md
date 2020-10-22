@@ -11,3 +11,9 @@
   c.ShurikenParticleSystem:the maxParticleCount multiply mesh vertexCount is large than 65535.(Limit MaxParticleCount in Unity)
   d.Particle Effect parent node cannot add Particle Component.
 2.Unity Mesh cannot use ShurikenParticleMaterial.
+# 20201022
+//MODIFY laya.core.js
+if (!mainResou && createRes instanceof Resource){
+    createRes._addReference();
+    createRes._setCreateURL(url);
+}
