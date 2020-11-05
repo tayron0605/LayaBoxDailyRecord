@@ -17,3 +17,7 @@ if (!mainResou && createRes instanceof Resource){
     createRes._addReference();
     createRes._setCreateURL(url);
 }
+
+# 20201105
+//Laya UI List
+1.if u try to clear a List(Box), u must type "list.array = [];" and "list.itemRender = null;".
