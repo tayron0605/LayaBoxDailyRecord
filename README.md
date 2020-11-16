@@ -21,3 +21,10 @@ if (!mainResou && createRes instanceof Resource){
 # 20201105
 //Laya UI List
 1.if u try to clear a List(Box), u must type "list.array = [];" and "list.itemRender = null;".
+
+# 20201116
+//Laya Asset Manager
+1.ClearRes
+  if u instantiate a ".lh" Resource, before ClearRes u must call "destroy(true)". (particle Resources must destroy children);
+2.class Scene3D
+  "_animatorPool" && "_timer" memory leak.
