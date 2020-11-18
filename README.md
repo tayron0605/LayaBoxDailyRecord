@@ -28,3 +28,7 @@ if (!mainResou && createRes instanceof Resource){
   if u instantiate a ".lh" Resource, before ClearRes u must call "destroy(true)". (particle Resources must destroy children);
 2.class Scene3D
   "_animatorPool" && "_timer" memory leak.
+
+# 20201118
+//laya.d3.js
+class TrailGeometry  method "_resetData", "Laya.Resource._addMemory" is after "this._vertexBuffer1.destroy();", "this._vertexBuffer1._byteLength" and "this._vertexBuffer2._byteLength" are 
