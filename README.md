@@ -31,4 +31,4 @@ if (!mainResou && createRes instanceof Resource){
 
 # 20201118
 //laya.d3.js (v2.8.0)
-class TrailGeometry  method "_resetData", "Laya.Resource._addMemory" is after "this._vertexBuffer1.destroy();", "this._vertexBuffer1._byteLength" and "this._vertexBuffer2._byteLength" are 
+class TrailGeometry  method "_resetData", "Laya.Resource._addMemory" is after "this._vertexBuffer1.destroy();", "this._vertexBuffer1._byteLength" and "this._vertexBuffer2._byteLength" are Zero
