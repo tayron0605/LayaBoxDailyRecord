@@ -32,3 +32,11 @@ if (!mainResou && createRes instanceof Resource){
 # 20201118
 //laya.d3.js (v2.8.0)
 class TrailGeometry  method "_resetData", "Laya.Resource._addMemory" is after "this._vertexBuffer1.destroy();", "this._vertexBuffer1._byteLength" and "this._vertexBuffer2._byteLength" are Zero
+
+# 20201125
+//Laya Preload
+".lh" files completed, but ParticleShuriken compile shader cost lot of times, u must pre-compile these shader with "compileShaderByDefineNames".
+1.Shader3D.debugMode = true;
+2.Run ur games.
+3.Copy shaderinformation.
+4.Modify ur "InitShader" function, add code like this "Laya.Shader3D.compileShaderByDefineNames("PARTICLESHURIKEN" ,0 ,0,["DIFFUSEMAP","ADDTIVEFOG","HORIZONTALBILLBOARD","COLOROVERLIFETIME","SIZEOVERLIFETIMECURVE","TINTCOLOR"]);"
