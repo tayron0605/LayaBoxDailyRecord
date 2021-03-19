@@ -40,3 +40,7 @@ class TrailGeometry  method "_resetData", "Laya.Resource._addMemory" is after "t
 2.Run ur games.
 3.Copy shaderinformation.
 4.Modify ur "InitShader" function, add code like this "Laya.Shader3D.compileShaderByDefineNames("PARTICLESHURIKEN" ,0 ,0,["DIFFUSEMAP","ADDTIVEFOG","HORIZONTALBILLBOARD","COLOROVERLIFETIME","SIZEOVERLIFETIMECURVE","TINTCOLOR"]);"
+# 20210319
+//laya.d3.js (v2.9.0)
+About "Class Animator -> _setClipDatasToNode -> _applyFloat", if pro is Vector3 or Vector4, then modify its params, cannot Call "set" Function. If "set" Function
+includes "AddDefine or RemoveDefine", some Shader Define maybe wrong.(e.g. EffectMaterial shaderpass "#ifdef TILINGOFFSET")
