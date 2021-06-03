@@ -44,3 +44,7 @@ class TrailGeometry  method "_resetData", "Laya.Resource._addMemory" is after "t
 //laya.d3.js (v2.9.0)
 About "Class Animator -> _setClipDatasToNode -> _applyFloat", if pro is Vector3 or Vector4, then modify its params, cannot Call "set" Function. If "set" Function
 includes "AddDefine or RemoveDefine", some Shader Define maybe wrong.(e.g. EffectMaterial shaderpass "#ifdef TILINGOFFSET")
+
+# 20210603
+//laya UI (v2.9.0)
+if use Laya.GlowFilter, sprite mask will be invalid.
