@@ -49,7 +49,7 @@ includes "AddDefine or RemoveDefine", some Shader Define maybe wrong.(e.g. Effec
 //laya UI (v2.9.0)
 if use Laya.GlowFilter, sprite mask will be invalid.
 
-#20211130
+# 20211130
 Laya2.12.0人物模型导出标准(带骨骼遮罩)
 1.创建完avatarMask后humanoid不用标 laya不支持，只需要开关下面的骨骼节点
 2.需要分层的动作比如跑和攻击，创建上下两部分的clip，在clip的mask选项里面勾选事先创建好的mask
