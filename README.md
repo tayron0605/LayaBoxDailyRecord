@@ -65,3 +65,6 @@ copy from other mask指定后预览看效果，确定没有异常
 1.非移动状态:全身攻击->全身idle
 2.移动状态:上半身walk循环 或 上半身攻击->上半身idle
 	下半身walk循环
+
+# 20240410
+Laya2.9.0以下版本2D界面和3D模型混合渲染（人物装备界面），3D相机需要关闭HDR，否则camera的ClearFlag为Depth会有渲染问题
